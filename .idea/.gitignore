@@ -6,7 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-.idea
+/.idea
 out
-.gitignore
+/.idea/.gitignore
 Chess game.iml
