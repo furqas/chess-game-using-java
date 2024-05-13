@@ -1,14 +1,16 @@
 package application;
 
+import chess.ChessMatch;
 import gameboard.Board;
 import gameboard.Position;
 
 public class Program {
 
     public static void main(String[] args){
-        Position pos = new Position(12,12);
+        ChessMatch chessMatch = new ChessMatch();
+        Ui.printBoard(chessMatch.getPieces());
 
-        Board board = new Board(8,8);
+
     }
 
 }
